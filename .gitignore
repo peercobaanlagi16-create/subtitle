@@ -1,0 +1,80 @@
+# =========================================================
+# ✅ NEXT.JS / FRONTEND
+# =========================================================
+
+# Build output
+.next/
+out/
+dist/
+
+# Static cache
+.next/cache/
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Node.js
+node_modules/
+
+# =========================================================
+# ✅ BACKEND PYTHON
+# =========================================================
+
+# Virtual envs
+venv/
+env/
+backend/venv/
+backend/env/
+
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.so
+
+# Playwright binaries / caches
+playwright/
+backend/venv/Lib/site-packages/playwright/
+**/node.exe
+
+# =========================================================
+# ✅ WHISPER & MODELS
+# =========================================================
+
+whisper/models/
+*.bin
+*.bin.*
+
+# =========================================================
+# ✅ OUTPUT FOLDER (PERMINTAAN KAMU)
+# =========================================================
+
+output/
+backend/output/
+*/output/
+
+# =========================================================
+# ✅ GENERAL / FILE SENSITIVE
+# =========================================================
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cache/
+temp/
+tmp/
